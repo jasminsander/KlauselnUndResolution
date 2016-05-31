@@ -33,7 +33,7 @@ public class KNF {
 				}
 			}
 		}
-		if (resolvent == true) {
+		if (resolvent) {
 			Set<Literal> set = new HashSet<Literal>();
 			set.addAll(listLiterale);
 			return new Klausel(set);
